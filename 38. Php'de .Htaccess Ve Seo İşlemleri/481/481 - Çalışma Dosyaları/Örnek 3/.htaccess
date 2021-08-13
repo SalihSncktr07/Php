@@ -1,0 +1,4 @@
+ErrorDocument	401	http://localhost/ExtraEgitim/hata.php
+ErrorDocument	403	http://localhost/ExtraEgitim/hata.php
+ErrorDocument	404	http://localhost/ExtraEgitim/hata.php
+ErrorDocument	500	http://localhost/ExtraEgitim/hata.php
