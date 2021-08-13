@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body{
+	background-color:#900;
+}
+
+.Baslik{
+	font-size:25px;
+	font-weight:bold;
+	color:yellow;
+	text-decoration:underline;
+}
+
+#Isim{
+	padding-top:10px;
+	color:white;
+}

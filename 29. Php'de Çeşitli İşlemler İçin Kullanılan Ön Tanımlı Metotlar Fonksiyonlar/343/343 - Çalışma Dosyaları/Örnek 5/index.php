@@ -1,0 +1,30 @@
+<?php
+include("A.php");
+include_once("B.php");
+require("Siniflar/Volkan/Deneme/X.php");
+require_once("Dosya/C.php");
+include("Dosya/Test/D.php");
+?>
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="tr">
+<meta charset="utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+	<?php
+	/*
+	get_included_files()	:	Kullanılacak olan PHP dosyasına, dahil edilmiş / eklenmiş tüm PHP dosyalarının path'ini (yolunu) ve isimlerini bularak, bulduğu değerlerden yeni bir dizi oluşturarak, oluşturduğu dizi değerini geriye döndürür.
+	get_required_files()	:	Kullanılacak olan PHP dosyasına, dahil edilmiş / eklenmiş tüm PHP dosyalarının path'ini (yolunu) ve isimlerini bularak, bulduğu değerlerden yeni bir dizi oluşturarak, oluşturduğu dizi değerini geriye döndürür.
+	*/
+	
+	echo "<pre>";
+	print_r(get_included_files());
+	echo "</pre>";
+	
+	?>
+</body>
+</html>
